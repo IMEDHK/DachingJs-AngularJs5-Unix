@@ -9,8 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "pre-commit": "npm run lint",
-    "pre-push": "npm push lint",
+    "precommit": "npm run lint",
     "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "private": true,
